@@ -1,0 +1,231 @@
+body {
+  font-family: "Myriad pro";
+  margin: 2em;
+  background-color: #000000;
+  background-image: url("https://wallpaperaccess.com/full/1595904.jpg");
+  overflow: hidden;
+}
+
+h1 {
+  color: #0;
+}
+
+.lisans {
+  color: #fff
+}
+
+.lisans .telif {
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.lisans a {
+  color: #5cc5f3;
+}
+
+.lisans a:hover {
+    color: #5cc5f3;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+::selection {
+    background-color: #222;
+    color: white;
+}
+
+.banner{
+  position: absolute; 
+  text-align: center; 
+  top:11%; 
+  left:50%; 
+  transform:translate(-50%,-50%);
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.banner span{
+  color: #fff; 
+  text-transform: uppercase; 
+  display: block; 
+  font-family:myriad pro;
+}
+
+.banner .yazi{
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing:8px;
+  margin-bottom: 20px;
+  background: transparent;
+  position: relative;   
+  <!
+  --animation: text 3s 1;
+  -->
+  z-index: 999;
+  }
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -120px;
+        
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -120px;
+    }
+    80%{
+        letter-spacing: 8px;
+        margin-bottom: -120px;
+    }
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.card {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .arka {
+    position:fixed;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card .arka .resim {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    background-color: white;
+    margin-top: 13px;
+}
+.card .arka .resim img {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 9px; */
+}
+.card .arka h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+.card .arka h2 span {
+    font-size:14px;
+    background: #2D2D2D;
+    color:#fff;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:15px;
+}
+.card .arka p {
+    color:#262626;
+}
+.card .arka span {
+    display:inline-flex;
+}
+.card .arka ul {
+    margin:0;
+    padding:0;
+}
+.card .arka ul li {
+    list-style:none;
+    float:left;
+}
+.card .arka ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card .arka ul li:hover a {
+    color:#e91e63;
+    transform:rotateY(360deg);
+}
+
+body { 
+  margin:0; 
+  font:normal 75% Arial, Helvetica, sans-serif; 
+} 
+
+canvas 
+{ display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color:
+    #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}  
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-weight: bold;
+} 
+.js-count-particles {
+  font-size: 1.1em;
+} 
+#stats, .count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+} 
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+} 
+.count-particles {
+  border-radius: 0 0 3px 3px; 
+}
